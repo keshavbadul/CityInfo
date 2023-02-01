@@ -12,6 +12,7 @@ namespace CityInfo.API.Controllers
 
         public PointsOfInterestController(ILogger<PointsOfInterestController> logger)
         {
+            //GIT TEST 123
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
